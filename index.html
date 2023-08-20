@@ -47,10 +47,10 @@
       <section class="bg-yellow">
         <!-- Banner Container -->
         <div
-          class="w-10/12 font-work flex flex-row justify-center items-center mx-auto py-10 gap-4"
+          class="w-10/12 font-work flex flex-col-reverse lg:flex-row md:flex-row justify-center items-center mx-auto py-10 gap-4"
         >
           <!-- Banner Left -->
-          <div class="text-[#111111] w-1/2">
+          <div class="text-[#111111] w-full lg:w-1/2 md:w-1/2">
             <h4 class="text-black text-xl text-center font-medium mb-8">
               ---SALE FEVER---
             </h4>
@@ -76,21 +76,25 @@
     </header>
     <!-- Main Section -->
     <main class="bg-gray">
-      <div class="w-11/12 pt-20 gap-4 mx-auto flex flex-row">
+      <div class="w-11/12 pt-20 gap-4 mx-auto flex flex-col lg:flex-row">
         <!-- Products -->
-        <section id="products-list" class="w-9/12 mx-auto">
+        <section id="products-list" class="w-10/12 lg:w-9/12 mx-auto">
           <!-- Kitchenware Section -->
           <div class="">
-            <h1 class="text-3xl font-bold mb-7">Kitchenware</h1>
+            <h1
+              class="text-3xl text-center lg:text-left md:text-left font-bold mb-7"
+            >
+              Kitchenware
+            </h1>
             <!-- Item Container -->
-            <div class="flex flex-row gap-4">
+            <div class="flex flex-col lg:flex-row gap-4">
               <!-- Item 1 -->
               <div
                 onclick="cardClicked(0)"
                 class="card cursor-pointer w-full bg-white"
               >
                 <figure
-                  class="m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
+                  class="m-2 lg:m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
                 >
                   <img src="/images/prod1.png" alt="Shoes" class="rounded-xl" />
                 </figure>
@@ -136,7 +140,7 @@
                 class="card w-full bg-white cursor-pointer"
               >
                 <figure
-                  class="m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
+                  class="m-2 lg:m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
                 >
                   <img src="/images/prod2.png" alt="Shoes" class="rounded-xl" />
                 </figure>
@@ -182,7 +186,7 @@
                 class="card w-full bg-white cursor-pointer"
               >
                 <figure
-                  class="m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
+                  class="m-2 lg:m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
                 >
                   <img src="/images/prod3.png" alt="Shoes" class="rounded-xl" />
                 </figure>
@@ -226,16 +230,20 @@
           </div>
           <!-- Sportswear Section -->
           <div class="">
-            <h1 class="text-3xl font-bold mt-10 mb-7">Kitchenware</h1>
+            <h1
+              class="text-3xl text-center md:text-left lg:text-left font-bold mt-10 mb-7"
+            >
+              Kitchenware
+            </h1>
             <!-- Item Container -->
-            <div class="flex flex-row gap-4">
+            <div class="flex flex-col lg:flex-row gap-4">
               <!-- Item 4-->
               <div
                 onclick="cardClicked(3)"
                 class="card w-full bg-white cursor-pointer"
               >
                 <figure
-                  class="m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
+                  class="m-2 lg:m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
                 >
                   <img
                     src="./images/prod4.png"
@@ -287,7 +295,7 @@
                 class="card w-full bg-white cursor-pointer"
               >
                 <figure
-                  class="m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
+                  class="m-2 lg:m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
                 >
                   <img
                     src="./images/prod5.png"
@@ -339,7 +347,7 @@
                 class="card w-full bg-white cursor-pointer"
               >
                 <figure
-                  class="m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
+                  class="m-2 lg:m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
                 >
                   <img
                     src="./images/prod6.png"
@@ -387,16 +395,20 @@
           </div>
           <!-- Furniture Section -->
           <div class="mb-36">
-            <h1 class="text-3xl font-bold mt-10 mb-7">Kitchenware</h1>
+            <h1
+              class="text-3xl text-center lg:text-left md:text-left font-bold mt-10 mb-7"
+            >
+              Kitchenware
+            </h1>
             <!-- Item Container -->
-            <div class="flex flex-row gap-4">
+            <div class="flex flex-col lg:flex-row gap-4">
               <!-- Item 7 -->
               <div
                 onclick="cardClicked(6)"
                 class="card w-full bg-white cursor-pointer"
               >
                 <figure
-                  class="m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
+                  class="m-2 lg:m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
                 >
                   <img
                     src="./images/prod7.png"
@@ -448,7 +460,7 @@
                 class="card w-full bg-white cursor-pointer"
               >
                 <figure
-                  class="m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
+                  class="m-2 lg:m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
                 >
                   <img
                     src="./images/prod8.png"
@@ -498,7 +510,7 @@
                 class="card w-full bg-white cursor-pointer"
               >
                 <figure
-                  class="m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
+                  class="m-2 lg:m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
                 >
                   <img
                     src="./images/prod9.png"
@@ -546,7 +558,7 @@
           </div>
         </section>
         <!-- Product Cart -->
-        <aside class="w-3/12">
+        <aside class="w-full pb-20 lg:w-3/12 md:3/12">
           <!-- cupon -->
           <div class="bg-white rounded-md p-5 mt-[61px]">
             <h3 class="text-xl font-bold text-left">Have coupon?</h3>
@@ -605,7 +617,7 @@
             </button>
             <!-- Modal Start -->
             <dialog id="my_modal_1" class="modal">
-              <form method="dialog" class="modal-box p-16 text-center">
+              <form method="dialog" class="modal-box p-6 lg:p-16 md:p-12 text-center">
                 <img class="mx-auto mb-10" src="./images/congo.png" alt="" />
                 <h3 class="text-3xl font-bold font-work">Congratulations</h3>
                 <p class="py-4">

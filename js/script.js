@@ -78,11 +78,15 @@ document.getElementById('go-home').addEventListener('click', function() {
     const totalPrice = element('total-price')
     const discount = element('discount')
     const pay = element('pay')
+    const itemCart = element('item-cart');
 
     // clear element data
     totalPrice.innerText = '0.00';
     discount.innerText = '0.00';
     pay.innerText = '0.00';
+    itemCart.innerText = ""
+
+
 
     console.log(totalPrice, discount, pay)
 })
