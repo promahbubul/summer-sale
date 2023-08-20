@@ -128,7 +128,6 @@
                   <p class="text-gray2 font-black font-light">
                     <span> 39.00 </span> TK
                   </p>
-                  <div class="card-actions"></div>
                 </div>
               </div>
               <!-- Item 2 -->
@@ -175,7 +174,6 @@
                   <p class="text-gray2 font-black font-light">
                     <span>25.00</span> TK
                   </p>
-                  <div class="card-actions"></div>
                 </div>
               </div>
               <!-- Item 3 -->
@@ -222,7 +220,6 @@
                   <p class="text-gray2 font-black font-light">
                     <span>49.00 </span> TK
                   </p>
-                  <div class="card-actions"></div>
                 </div>
               </div>
             </div>
@@ -282,7 +279,6 @@
                   <p class="text-gray2 font-black font-light">
                     <span>49.00</span> TK
                   </p>
-                  <div class="card-actions"></div>
                 </div>
               </div>
               <!-- Item 5 -->
@@ -385,7 +381,6 @@
                   <p class="text-gray2 font-black font-light">
                     <span>159.00</span> TK
                   </p>
-                  <div class="card-actions"></div>
                 </div>
               </div>
             </div>
@@ -445,7 +440,6 @@
                   <p class="text-gray2 font-black font-light">
                     <span>185.00</span> TK
                   </p>
-                  <div class="card-actions"></div>
                 </div>
               </div>
               <!-- Item 8 -->
@@ -496,7 +490,6 @@
                   <p class="text-gray2 font-black font-light">
                     <span>299.00</span> TK
                   </p>
-                  <div class="card-actions"></div>
                 </div>
               </div>
               <!-- Item 9 -->
@@ -547,7 +540,6 @@
                   <p class="text-gray2 font-black font-light">
                     <span>339.00</span> TK
                   </p>
-                  <div class="card-actions"></div>
                 </div>
               </div>
             </div>
@@ -612,19 +604,21 @@
               Make Purchase
             </button>
             <!-- Modal Start -->
-            <!-- Open the modal using ID.showModal() method -->
-            <!-- <button class="btn" onclick="my_modal_1.showModal()">
-              open modal
-            </button> -->
             <dialog id="my_modal_1" class="modal">
-              <form method="dialog" class="modal-box">
-                <h3 class="font-bold text-lg">Hello!</h3>
+              <form method="dialog" class="modal-box p-16 text-center">
+                <img class="mx-auto mb-10" src="./images/congo.png" alt="" />
+                <h3 class="text-3xl font-bold font-work">Congratulations</h3>
                 <p class="py-4">
                   Press ESC key or click the button below to close
                 </p>
-                <div class="modal-action">
+                <div class="text-center">
                   <!-- if there is a button in form, it will close the modal -->
-                  <button class="btn">Close</button>
+                  <button
+                    id="go-home"
+                    class="btn disabled:bg-gray3 hover:bg-[#9F0D7F] text-white bg-pink py-3 text-white font-bold text-base rounded-md px-6"
+                  >
+                    Go Home
+                  </button>
                 </div>
               </form>
             </dialog>
