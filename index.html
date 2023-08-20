@@ -60,7 +60,9 @@
             </h1>
             <div class="text-center mt-8 space-x-2">
               <span class="font-medium font-black">Use Promo Code</span>
-              <span class="text-white bg-pink px-4 py-2 rounded-md font-bold"
+              <span
+                id="cupon-code"
+                class="text-white bg-pink px-4 py-2 rounded-md font-bold"
                 >SELL200</span
               >
             </div>
@@ -76,14 +78,17 @@
     <main class="bg-gray">
       <div class="w-11/12 pt-20 gap-4 mx-auto flex flex-row">
         <!-- Products -->
-        <section class="w-9/12 mx-auto">
+        <section id="products-list" class="w-9/12 mx-auto">
           <!-- Kitchenware Section -->
           <div class="">
             <h1 class="text-3xl font-bold mb-7">Kitchenware</h1>
             <!-- Item Container -->
             <div class="flex flex-row gap-4">
               <!-- Item 1 -->
-              <div class="card w-full bg-white">
+              <div
+                onclick="cardClicked(0)"
+                class="card cursor-pointer w-full bg-white"
+              >
                 <figure
                   class="m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
                 >
@@ -120,12 +125,17 @@
                     />
                   </div>
                   <h2 class="card-title text-base font-bold">K. Accessories</h2>
-                  <p class="text-gray2 font-black font-light">39.00 TK</p>
+                  <p class="text-gray2 font-black font-light">
+                    <span> 39.00 </span> TK
+                  </p>
                   <div class="card-actions"></div>
                 </div>
               </div>
               <!-- Item 2 -->
-              <div class="card w-full bg-white">
+              <div
+                onclick="cardClicked(1)"
+                class="card w-full bg-white cursor-pointer"
+              >
                 <figure
                   class="m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
                 >
@@ -162,12 +172,17 @@
                     />
                   </div>
                   <h2 class="card-title text-base font-bold">K. Accessories</h2>
-                  <p class="text-gray2 font-black font-light">25.00 TK</p>
+                  <p class="text-gray2 font-black font-light">
+                    <span>25.00</span> TK
+                  </p>
                   <div class="card-actions"></div>
                 </div>
               </div>
               <!-- Item 3 -->
-              <div class="card w-full bg-white">
+              <div
+                onclick="cardClicked(2)"
+                class="card w-full bg-white cursor-pointer"
+              >
                 <figure
                   class="m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
                 >
@@ -204,7 +219,9 @@
                     />
                   </div>
                   <h2 class="card-title text-base font-bold">Home Cooker</h2>
-                  <p class="text-gray2 font-black font-light">49.00 TK</p>
+                  <p class="text-gray2 font-black font-light">
+                    <span>49.00 </span> TK
+                  </p>
                   <div class="card-actions"></div>
                 </div>
               </div>
@@ -215,8 +232,11 @@
             <h1 class="text-3xl font-bold mt-10 mb-7">Kitchenware</h1>
             <!-- Item Container -->
             <div class="flex flex-row gap-4">
-              <!-- Item 1 -->
-              <div class="card w-full bg-white">
+              <!-- Item 4-->
+              <div
+                onclick="cardClicked(3)"
+                class="card w-full bg-white cursor-pointer"
+              >
                 <figure
                   class="m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
                 >
@@ -259,12 +279,17 @@
                   <h2 class="card-title text-base font-bold">
                     Sports Back Cap
                   </h2>
-                  <p class="text-gray2 font-black font-light">49.00 TK</p>
+                  <p class="text-gray2 font-black font-light">
+                    <span>49.00</span> TK
+                  </p>
                   <div class="card-actions"></div>
                 </div>
               </div>
-              <!-- Item 2 -->
-              <div class="card w-full bg-white">
+              <!-- Item 5 -->
+              <div
+                onclick="cardClicked(4)"
+                class="card w-full bg-white cursor-pointer"
+              >
                 <figure
                   class="m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
                 >
@@ -307,12 +332,16 @@
                   <h2 class="card-title text-base font-bold">
                     Full Jersey Set
                   </h2>
-                  <p class="text-gray2 font-black font-light">69.00 TK</p>
-                  <div class="card-actions"></div>
+                  <p class="text-gray2 font-black font-light">
+                    <span>69.00 </span> TK
+                  </p>
                 </div>
               </div>
-              <!-- Item 3 -->
-              <div class="card w-full bg-white">
+              <!-- Item 6-->
+              <div
+                onclick="cardClicked(5)"
+                class="card w-full bg-white cursor-pointer"
+              >
                 <figure
                   class="m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
                 >
@@ -353,7 +382,9 @@
                     />
                   </div>
                   <h2 class="card-title text-base font-bold">Sports cates</h2>
-                  <p class="text-gray2 font-black font-light">159.00 TK</p>
+                  <p class="text-gray2 font-black font-light">
+                    <span>159.00</span> TK
+                  </p>
                   <div class="card-actions"></div>
                 </div>
               </div>
@@ -364,8 +395,11 @@
             <h1 class="text-3xl font-bold mt-10 mb-7">Kitchenware</h1>
             <!-- Item Container -->
             <div class="flex flex-row gap-4">
-              <!-- Item 1 -->
-              <div class="card w-full bg-white">
+              <!-- Item 7 -->
+              <div
+                onclick="cardClicked(6)"
+                class="card w-full bg-white cursor-pointer"
+              >
                 <figure
                   class="m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
                 >
@@ -405,13 +439,20 @@
                       class="mask mask-star-2 bg-orange"
                     />
                   </div>
-                  <h2 class="card-title text-base font-bold">K. Accessories</h2>
-                  <p class="text-gray2 font-black font-light">39.00 TK</p>
+                  <h2 class="card-title text-base font-bold">
+                    Single Relax Chair
+                  </h2>
+                  <p class="text-gray2 font-black font-light">
+                    <span>185.00</span> TK
+                  </p>
                   <div class="card-actions"></div>
                 </div>
               </div>
-              <!-- Item 2 -->
-              <div class="card w-full bg-white">
+              <!-- Item 8 -->
+              <div
+                onclick="cardClicked(7)"
+                class="card w-full bg-white cursor-pointer"
+              >
                 <figure
                   class="m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
                 >
@@ -451,13 +492,18 @@
                       class="mask mask-star-2 bg-orange"
                     />
                   </div>
-                  <h2 class="card-title text-base font-bold">K. Accessories</h2>
-                  <p class="text-gray2 font-black font-light">39.00 TK</p>
+                  <h2 class="card-title text-base font-bold">Children play</h2>
+                  <p class="text-gray2 font-black font-light">
+                    <span>299.00</span> TK
+                  </p>
                   <div class="card-actions"></div>
                 </div>
               </div>
-              <!-- Item 3 -->
-              <div class="card w-full bg-white">
+              <!-- Item 9 -->
+              <div
+                onclick="cardClicked(8)"
+                class="card w-full bg-white cursor-pointer"
+              >
                 <figure
                   class="m-4 flex items-center justify-center rounded-xl bg-[#1111110D] py-10"
                 >
@@ -497,8 +543,10 @@
                       class="mask mask-star-2 bg-orange"
                     />
                   </div>
-                  <h2 class="card-title text-base font-bold">K. Accessories</h2>
-                  <p class="text-gray2 font-black font-light">39.00 TK</p>
+                  <h2 class="card-title text-base font-bold">Flexible Sofa</h2>
+                  <p class="text-gray2 font-black font-light">
+                    <span>339.00</span> TK
+                  </p>
                   <div class="card-actions"></div>
                 </div>
               </div>
@@ -514,51 +562,79 @@
               <input
                 type="text"
                 name=""
-                id=""
+                id="cupon-field"
                 class="px-4 py-1 w-full border-gray3 border outline-none rounded-l-md"
                 placeholder="Coupon code"
               />
               <button
-                class="bg-pink py-3 px-4 text-white font-bold text-base rounded-r-md"
+                id="cupon-btn"
+                disabled
+                class="btn hover:bg-[#9F0D7F] disabled:bg-gray3 rounded-l-none bg-pink py-3 px-4 text-white font-bold text-base rounded-r-md"
               >
                 Apply
               </button>
             </div>
           </div>
           <!-- cart Items -->
-          <!-- cupon -->
+          <!-- purchase amount -->
           <div class="bg-white rounded-md p-5 mt-5 relative">
             <div
               class="flex flex-col gap-3 border-b border-gray3 pb-5 mb-5"
-              id=""
-            >
-              <p class="text-xl font-medium text-left">1. Home Cooker</p>
-              <p class="text-xl font-medium text-left">2. Home Cooker</p>
-              <p class="text-xl font-medium text-left">3. Home Cooker</p>
-            </div>
+              id="item-cart"
+            ></div>
             <div
               class="flex flex-col gap-3 border-b border-gray3 pb-5 mb-5"
               id=""
             >
               <p class="text-xl font-medium text-left">
-                Total price: <span class="text-gray2">257.00TK</span>
+                Total price:
+                <span class="text-gray2"
+                  ><span id="total-price" class="">0.00</span> TK</span
+                >
               </p>
               <p class="text-xl font-medium text-left">
-                Discount : <span class="text-gray2">51.40TK</span>
+                Discount :
+                <span class="text-gray2"
+                  ><span id="discount">0.00</span> TK</span
+                >
               </p>
               <p class="text-xl font-medium text-left">
-                Total: <span class="text-gray2">205.60 TK</span>
+                Total:
+                <span class="text-gray2"><span id="pay">0.00</span> TK</span>
               </p>
             </div>
             <button
-              class="bg-pink py-3 absolute text-white font-bold text-base rounded-md w-10/12"
+              onclick="my_modal_1.showModal()"
+              id="pay-btn"
+              disabled
+              class="btn disabled:bg-gray3 hover:bg-[#9F0D7F] text-white bg-pink py-3 absolute text-white font-bold text-base rounded-md w-10/12"
             >
-              Apply
+              Make Purchase
             </button>
+            <!-- Modal Start -->
+            <!-- Open the modal using ID.showModal() method -->
+            <!-- <button class="btn" onclick="my_modal_1.showModal()">
+              open modal
+            </button> -->
+            <dialog id="my_modal_1" class="modal">
+              <form method="dialog" class="modal-box">
+                <h3 class="font-bold text-lg">Hello!</h3>
+                <p class="py-4">
+                  Press ESC key or click the button below to close
+                </p>
+                <div class="modal-action">
+                  <!-- if there is a button in form, it will close the modal -->
+                  <button class="btn">Close</button>
+                </div>
+              </form>
+            </dialog>
+            <!-- Modal End -->
           </div>
         </aside>
       </div>
     </main>
     <footer></footer>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>
