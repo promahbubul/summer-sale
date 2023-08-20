@@ -79,18 +79,25 @@ document.getElementById('go-home').addEventListener('click', function() {
     const discount = element('discount')
     const pay = element('pay')
     const itemCart = element('item-cart');
+    const cuponField = element('cupon-field')
 
     // clear element data
     totalPrice.innerText = '0.00';
     discount.innerText = '0.00';
     pay.innerText = '0.00';
     itemCart.innerText = ""
+    cuponField.value = ""
 
     const totalPriceNumber = parseFloat(totalPrice.innerText)
     console.log(totalPriceNumber)
     if(totalPriceNumber < 1000) {
         const cuponButton = element('cupon-btn')
         cuponButton.setAttribute('disabled', true)
+    }
+
+    if(totalPriceNumber <= 0 ){
+        const payButton = element('pay-btn')
+        payButton.setAttribute('disabled', true)
     }
     // console.log(totalPrice, discount, pay)
 })
