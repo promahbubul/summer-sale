@@ -86,9 +86,13 @@ document.getElementById('go-home').addEventListener('click', function() {
     pay.innerText = '0.00';
     itemCart.innerText = ""
 
-
-
-    console.log(totalPrice, discount, pay)
+    const totalPriceNumber = parseFloat(totalPrice.innerText)
+    console.log(totalPriceNumber)
+    if(totalPriceNumber < 1000) {
+        const cuponButton = element('cupon-btn')
+        cuponButton.setAttribute('disabled', true)
+    }
+    // console.log(totalPrice, discount, pay)
 })
 
 
