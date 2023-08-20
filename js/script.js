@@ -41,7 +41,7 @@ function cardClicked(cardNumber) {
 
 
 
-    if (newTotalPrice >= 1000) {
+    if (newTotalPrice >= 200) {
         const cuponButton = document.getElementById('cupon-btn');
         cuponButton.removeAttribute('disabled')
     }
